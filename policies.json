@@ -1,0 +1,127 @@
+{
+  "policies": {
+    "CaptivePortal": true,
+    "DNSOverHTTPS": {
+      "Enabled": false
+    },
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxScreenshots": true,
+    "DisableFirefoxStudies": true,
+    "DisableMasterPasswordCreation": true,
+    "DisablePocket": true,
+    "DisableSecurityBypass": {
+      "InvalidCertificate": false,
+      "SafeBrowsing": false
+    },
+    "DisableSetDesktopBackground": true,
+    "DisableTelemetry": true,
+    "DontCheckDefaultBrowser": true,
+    "EnableTrackingProtection": {
+      "Cryptomining": false,
+      "Fingerprinting": false,
+      "Value": false
+    },
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/addon-607454-latest.xpi",
+        "installation_mode": "normal_installed"
+      },
+      "jid1-xUfzOsOFlzSOXg@jetpack": {
+      	"install_url": "https://addons.mozilla.org/firefox/downloads/latest/reddit-enhancement-suite/addon-3703195-latest.xpi",
+      	"installation_mode": "normal_installed"
+      },
+      "{287dcf75-bec6-4eec-b4f6-71948a2eea29}": {
+      	"install_url": "https://addons.mozilla.org/firefox/downloads/latest/view-image/addon-3556331-latest.xpi",
+      	"installation_mode": "normal_installed"
+      },
+      "*": {
+        "allowed_types": [
+          "extension"
+        ],
+        "installation_mode": "allowed"
+      }
+    },
+    "Extensions": {
+      "Uninstall": [
+        "amazondotcom@search.mozilla.org",
+        "bing@search.mozilla.org",
+        "ebay@search.mozilla.org",
+        "twitter@search.mozilla.org",
+        "wikipedia@search.mozilla.org"
+      ]
+    },
+    "ExtensionUpdate": true,
+    "FirefoxHome": {
+      "Highlights": false,
+      "Locked": true,
+      "Pocket": false,
+      "Search": false,
+      "Snippets": false,
+      "TopSites": false
+    },
+    "FlashPlugin": {
+      "Default": false,
+      "Locked": true
+    },
+    "Homepage": {
+      "Locked": true,
+      "StartPage": "none"
+    },
+    "NewTabPage": false,
+    "NoDefaultBookmarks": true,
+    "OfferToSaveLogins": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "PasswordManagerEnabled": false,
+    "Permissions": {
+       "Autoplay": {
+        "Default": "block-audio-video"
+      },
+      "Camera": {
+        "BlockNewRequests": true
+      },
+      "Location": {
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "Microphone": {
+        "BlockNewRequests": true
+      },
+      "Notifications": {
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "VirtualReality": {
+        "BlockNewRequests": true,
+        "Locked": true
+      }
+    },
+    "Preferences": {
+      "browser.uiCustomizations.state": {
+        "placements": {
+          "widget-overflow-fixed-list": [],
+          "nav-bar": ["back-button","forward-button","stop-reload-button","urlbar-container","downloads-butt0n","fxa-toolbar-menu-button","ublock0_raymondhill_net-browser-action"],
+          "TabsToolbar": ["tabbrowser-tabs","new-tab-button","alltabs-button"],
+          "PersonalToolbar": ["personal-bookmarks"]
+        },
+        "seen": ["ublock0_raymondhill_net-browser-action","_287dcf75-bec6-4eec-b4f6-71948a2eea29_-browser-action","developer-button"],
+        "dirtyAreaCache": ["nav-bar","TabsToolbar","PersonalToolbar"],
+        "currentVersion":16,
+        "newElementCount":3
+      }
+    },
+    "PromptForDownloadLocation": false,
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": false,
+      "Downloads": true,
+      "FormData": false,
+      "History": false,
+      "OfflineApps": false,
+      "Sessions": false,
+      "SiteSettings": false
+    },
+    "SearchBar": "unified",
+    "SearchSuggestEnabled": false
+  }
+}
